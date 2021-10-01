@@ -1,4 +1,5 @@
 # HacktoberFest 2021
+![alt text](https://github.com/STICMedicaps/Hacktoberfest/blob/main/LinkedIn%20cover.jpg)
 
 An introduction to the world of Opensource.
 
