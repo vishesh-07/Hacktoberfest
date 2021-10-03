@@ -1,7 +1,7 @@
 import speech_recognition as sr 
 import winsound
 r=sr.Recognizer()
-
+#sppech recognizer
 x=int(input('enter the duration of your message in seconds '))
 print('please talk !')
 with sr.Microphone() as source:
