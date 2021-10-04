@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
    int num, reverse_num=0, remainder,temp;
