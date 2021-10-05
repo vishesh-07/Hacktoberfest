@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height:200px;
+            width:200px;
+            background-color: blue;
+        }
+        .box:hover{
+            background-color:black;
+            height:500px;
+            width:500px;
+        }
+        .box:focus{
+            background-color:rgb(226, 28, 28);
+            height:100px;
+            width:100px;
+        }
+       a{
+           color:red;
+           font-size:30px;
+       }
+       a:link{
+           color:black;
+       }
+       a:visited{
+           color: yellow;
+       }
+       a:hover{
+           color: rgb(9, 190, 18);
+       }
+       a:active{
+           color: rgb(12, 20, 136);
+       }
+    </style>
+</head>
+<body>
+   <div class="box" tabindex="1"></div>
+   <a href="https://www.instagram.com/">Link</a>
+</body>
+</html>
